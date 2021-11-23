@@ -297,6 +297,23 @@ function App() {
 
   return (
     <>
+    <button onClick={()=>{
+
+      document.querySelector('#myDiagramDiv canvas').toBlob((blob)=>{
+
+    
+
+        let link = document.createElement('a');
+        link.download = "drawing.png";
+
+        link.href = URL.createObjectURL(blob, {oneTimeOnly:true});
+
+        link.click();
+
+      });
+
+
+    }}>Save Image</button>    
       <button onClick={() => {
         setNodeData([...nodedata, {
           key: 1,
