@@ -1,0 +1,19 @@
+.component-menu{
+    display: flex;  
+}
+
+.geSidebar{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;        
+    justify-content: space-evenly;
+}
+
+.geItem:hover{
+    box-shadow: 0px 0px 2px 2px yellow;    ;
+}
+
+.geItem{
+    width:50px;
+    cursor: pointer;;
+}

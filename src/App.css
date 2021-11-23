@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+.name{
+  color: blue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight:bolder
+}
+.con{
+  color: red;
+
+}
+
+#myDiagramDiv{
+ width:68vw;
+ height: 100vh; 
+ background-color: burlywood;
+ overflow: scroll;
+ float: right;
+}
+
+#root{
+  width:500;
+  position:'relative'; 
+  bottom:0;
+  left:0;
+  right:0;
+}
+canvas{
+  /* margin-top: 100px; */
+ 
+  /* overflow: scroll; */
+  
+}
+
+#bar{
+  float: left;
+  width:30vw;
+ height: 100vh;
+ background-color: cadetblue;
+}
+
